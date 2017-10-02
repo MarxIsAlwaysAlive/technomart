@@ -1,0 +1,280 @@
+/*Общие*/
+html, body {
+	margin: 5px auto;
+	padding: 0;
+	min-height: 3150px;
+	width: 1200px;
+	font-family: 'Cuprum', sans-serif;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+	
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+	
+	width: 220px;
+	height: 42px;
+	
+	color: #ffffff;
+	font-family: 'Cuprum', sans-serif;
+	font-weight: bold;
+	font-size: 27.53px;
+	line-height: 42px;
+	text-align: center;
+	vertical-align: middle;
+	
+	background-color: #ee3643;
+	box-shadow: 0 5px #b52933;
+}
+
+/*хедер*/
+.index-header {
+	margin-bottom: 58px;
+	background-color: #f1f5f7;
+	color: #ffffff;
+}
+/*верхняя панель*/
+.header-user-panel {
+	margin-bottom: 46px;
+	background-color: #293449;
+}
+.form-search {
+	display: inline-block;
+}
+
+
+.header-description, .header-contacts {
+	float: left;
+	margin-bottom: 45px;
+	color: #000000;
+}
+
+.user-block {
+	float: right;
+	color: #000000;
+}
+
+.main-navigation {
+	background-color: #32425c;
+	margin-bottom: 45px;
+	list-style: none;
+	clear: both;
+}
+
+.main-navigation li {
+	display: inline-block;
+}
+
+.main-navigation a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*блок преимуществ*/
+.features-block {
+	margin-bottom: 53px;
+	/*только для оформления сетки*/
+
+	outline: 2px solid blue;
+	outline-offset: -2px;
+	background: blue;
+	opacity: 0.4;	
+}
+
+.feature-item-block {
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: left;
+	height: 123px;
+	width: 300px;
+	/*только для оформления сетки*/
+	outline: 2px solid yellow;
+	outline-offset: -2px;
+	background: yellow;
+	opacity: 0.8;
+}
+
+.feature-promo-block {
+	height: 266px;
+	width: 618px;
+	margin-bottom: 0;
+	/*только для оформления сетки*/
+	outline: 2px solid yellow;
+	outline-offset: -2px;
+	background: yellow;
+	opacity: 0.8;
+}
+
+.feature-item-technics, .feature-item-discount, .feature-item-delivery {
+	margin-right: 0;
+}
+
+.feature-item-delivery {
+	margin-bottom: 0;
+}
+
+/*популярные товары*/
+.popular-goods {
+	margin-bottom: 20px;
+}
+
+.popular-goods-title {
+	/*только для оформления сетки*/
+	height: 89px;
+	outline: 2px solid red;
+	outline-offset: -2px;
+	background: red;
+	opacity: 0.8;
+}
+
+.popular-goods-list {
+	font-size: 0;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	/*только для оформления сетки*/
+	outline: 2px solid red;
+	outline-offset: -2px;
+	background: red;
+	opacity: 0.8;
+}
+
+.card-product {
+	margin-top: 20px;
+	margin-right: 20px;
+	height: 318px;
+	width: 220px;
+	display: inline-block;
+	/*только для оформления сетки*/
+	outline: 2px solid red;
+	outline-offset: -2px;
+	background: green;
+	opacity: 0.8;
+}
+
+.card-product:nth-child(4n) {
+	margin-right: 0;
+}
+
+/*популярные производители*/
+.popular-brands {
+	margin-bottom: 84px;
+}
+
+.popular-brands-title {
+	/*только для оформления сетки*/
+	height: 89px;
+	outline: 2px solid red;
+	outline-offset: -2px;
+	background: red;
+	opacity: 0.8;
+}
+
+.popular-brands-list {
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	/*только для оформления сетки*/
+	outline: 2px solid red;
+	outline-offset: -2px;
+	background: red;
+	opacity: 0.8;
+}
+
+.card-brand {
+	height: 144px;
+	width: 218px;
+	margin-right: 20px;
+	display: inline-block;
+	margin-top: 20px;
+	/*только для оформления сетки*/
+	outline: 2px solid red;
+	outline-offset: -2px;
+	background: green;
+	opacity: 0.8;
+}
+
+.card-brand:nth-child(4n) {
+	margin-right: 0;
+}
+
+/*сервисы*/
+.services {
+	margin-bottom: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	min-height: 422px;
+	/*только для оформления сетки*/
+	outline: 2px solid red;
+	outline-offset: -2px;
+	background: red;
+	opacity: 0.8;
+}
+/*костыль для сетки*/
+.services .container {
+	min-height: 402px;
+}
+
+/*о компании*/
+.main-contacts {
+	margin-bottom: 85px;
+	/*только для оформления сетки*/
+	min-height: 380px;
+	outline: 2px solid red;
+	outline-offset: -2px;
+	background: red;
+	opacity: 0.8;
+}
+
+.about-company {
+	float: left;
+	width: 520px;
+	/*только для оформления сетки*/
+	min-height: 375px;
+	outline: 2px solid blue;
+	outline-offset: -2px;
+	background: blue;
+	opacity: 0.8;
+}
+
+.contacts-and-location {
+	float: right;
+	width: 300px;
+	/*только для оформления сетки*/
+	min-height: 375px;
+	outline: 2px solid blue;
+	outline-offset: -2px;
+	background: blue;
+	opacity: 0.8;
+}
+
+/*футер*/
+.footer-menu-block {
+	
+	/*только для оформления сетки*/
+	height: 192px;
+	outline: 2px solid blue;
+	outline-offset: -2px;
+	background: blue;
+	opacity: 0.8;
+}
+
+.footer-bottom-block {
+	/*только для оформления сетки*/
+	height: 105px;
+	outline: 2px solid blue;
+	outline-offset: -2px;
+	background: blue;
+	opacity: 0.8;
+}
